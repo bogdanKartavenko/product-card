@@ -1,0 +1,40 @@
+.wrapper__button {
+    display: flex;
+    justify-content: space-between;
+    max-width: 278px;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #333333;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &__buy {
+        background-color: #BDE253;
+        padding: 11px 33px;
+    }
+
+    &__buy:hover {
+        background-color: #A9CE3F;
+    }
+
+    &__buy:focus {
+        outline: 1px solid #333333;
+    }
+    &__add {
+        background-color: white;
+        border: 1px solid #333333;
+        padding: 11px 24px;
+    }
+    &__add:hover {
+        text-decoration: underline
+    }
+    &__add:focus {
+        outline: 1px solid #BDE253;
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "homework",
+    "version": "1.0.0",
+    "description": "Homework",
+    "main": "index.js",
+    "scripts": {
+        "scss": "sass scss:. --watch",
+        "serve": "live-server",
+        "dev": "concurrently -c auto,auto -n SCSS,SERVER \"npm run scss\" \"npm run serve\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/a1exalexander/hello/issues"
+    },
+    "dependencies": {
+        "normalize.css": "^8.0.1"
+    }
+}
