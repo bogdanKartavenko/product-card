@@ -110,10 +110,15 @@
 .button__add {
   background-color: white;
   border: 1px solid #333333;
-  padding: 11px 24px;
+  padding: 11px 23px;
 }
-.button__add:hover {
-  text-decoration: underline;
+.button__label {
+  line-height: 14px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s ease;
+}
+.button__add:hover .button__label {
+  border-bottom: 1px solid black;
 }
 .button__add:focus {
   outline: 1px solid #BDE253;
@@ -244,7 +249,7 @@
   height: 35px;
   border-right: 1px solid #BDBDBD;
   transform: rotate(45deg);
-  left: 151.5px;
+  left: 151px;
 }
 
 /*# sourceMappingURL=style.css.map */
