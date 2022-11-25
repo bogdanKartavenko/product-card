@@ -6,27 +6,28 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.header {
+.wrapper {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 60px 0;
 
-}
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    max-width: 860px;
-    min-height: 620px;
-    width: 100%;
-    padding: 60px 48px;
-    position: relative;
-
+    &__box {
+        max-width: 860px;
+        min-height: 620px;
+        width: 100%;
+        padding: 60px 48px;
+        position: relative;
+    }
     &__content {
+        display: flex;
+    justify-content: space-between;
+        max-height: 500px;
+    }
+
+    &__info {
         max-width: 278px;
-        height: 100%;
     }
 }
 
@@ -42,87 +43,19 @@
 .img {
     max-width: 438px;
     margin-right: 48px;
+    // max-height: 500px;
     border-radius: 6px;
-}
-
-.title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    color: #333333;
-    margin-bottom: 16px;
-}
-
-.price {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
-    color: #333333;
 }
 
 .wrapper__star {
     display: flex;
     justify-content: space-between;
     max-width: 120px;
-    margin: 16px 0 40px 0;
-}
-
-.list__star {
-    cursor: pointer;
-}
-.text {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 165%;
-    color: #333333;
+    height: 15px;
     margin-bottom: 40px;
 }
 
-.size {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 189px;
-    margin-bottom: 24px;
-
-    &__text {
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 165%;
-        color: #333333;
-    }
-
-    &__img {
-        width: 24px;
-        height: 24px;
-        cursor: pointer;
-    }
+.star {
+    cursor: pointer;
 }
 
-.colour {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 126px;
-    margin-bottom: 57px;
-
-    &__text {
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 165%;
-        color: #333333;
-        margin-right: 8px;
-        margin-bottom: 5px;
-    }
-
-    &__img {
-        width: 16px;
-        height: 16px;
-        cursor: pointer;
-    }
-
-    &__img:nth-child(1) {
-        width: 17px;
-        height: 17px;
-    }
-}

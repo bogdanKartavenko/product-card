@@ -1,0 +1,103 @@
+.size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 189px;
+    margin-bottom: 24px;
+    position: relative;
+
+    &__text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 165%;
+        color: #333333;
+    }
+
+    &__radio {
+        appearance: none;
+        cursor: pointer;
+    }
+
+    &__radio:nth-of-type(1):after {
+        content: "41";
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        top: -3px;
+        left: 37px;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #4F4F4F;
+    }
+
+    &__radio:nth-of-type(2):after {
+        content: "42";
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        top: -3px;
+        left: 71px;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #4F4F4F;
+    }
+
+    &__radio:nth-of-type(3):after {
+        content: "43";
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        top: -3px;
+        left: 105px;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #4F4F4F;
+    }
+
+    &__radio:nth-of-type(4):after {
+        content: "44";
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        top: -3px;
+        left: 139px;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #BDBDBD;
+        color: #BDBDBD;
+        cursor:default;
+    }
+
+    &__radio:nth-of-type(5):after {
+        content: "45";
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        top: -3px;
+        left: 173px;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #4F4F4F;
+    }
+
+    &__radio:checked::after {
+        background-color: #D4F041;
+    }
+
+    &__radio:nth-of-type(4):checked::after {
+        background-color: #fff;
+    }
+
+    &__border {
+        position: absolute;
+        height: 35px;
+        border-right:1px solid #BDBDBD;
+        transform: rotate(45deg);
+        left: 151.5px;
+    }
+}
