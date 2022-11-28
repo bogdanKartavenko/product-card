@@ -1,0 +1,39 @@
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 126px;
+    margin-bottom: 57px;
+
+    &__label {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 165%;
+        color: #333333;
+        margin-right: 8px;
+    }
+
+    &__input {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        appearance: none;
+        cursor: pointer;
+    }
+
+    &__input:focus {
+        border: 1px solid #4F4F4F;
+    }
+
+    &__input:nth-of-type(1) {
+        background-color: #D4F041;
+    }
+
+    &__input:nth-of-type(2) {
+        background-color: #FAA541;
+    }
+
+    &__input:nth-of-type(3) {
+        background-color: #FFFFFF;
+    }
+}

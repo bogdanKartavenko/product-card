@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Product-card</title>
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="wrapper__box">
+            <div class="wrapper__content">
+                <img class="close" src="svg/close.svg" alt="close">
+                <img class="img" src="img/BGshoes.png" alt="">
+                <div class="wrapper__info">
+                    <h1 class="title">Nike React Infinity Run Flyknit 3 Mens</h1>
+                    <p class="price">$159.00</p>
+                    <ul class="wrapper__star">
+                        <li class="star list__star">
+                            <img class="img__star" src="svg/stars.svg" alt="star">
+                        </li>
+                        <li class="star list__star">
+                            <img class="img__star" src="svg/stars.svg" alt="star">
+                        </li>
+                        <li class="star list__star">
+                            <img class="img__star" src="svg/stars.svg" alt="star">
+                        </li>
+                        <li class="star list__star">
+                            <img class="img__star" src="img/bi_star-fill.png" alt="star">
+                        </li>
+                        <li class="star list__star">
+                            <img class="img__star" src="img/stars_zero.png" alt="star">
+                        </li>
+                    </ul>
+                    <p class="text">Treat your feet to the comfort they deserve with the Nike React Infinity Run Flyknit
+                        3.
+                        This latest addition grants a soft and stable ride over any distance through it's unique rocker
+                        design, shaped to support all 3 phases of your stride. </p>
+                    <form class="form">
+                        <div class="size">
+                            <label class="size__text" for="size">Size:</label>
+                            <input class="size__radio" type="radio" name="size" id="size">
+                            <input class="size__radio" type="radio" name="size" id="size2">
+                            <input class="size__radio" type="radio" name="size" id="size3">
+                            <input class="size__radio" type="radio" name="size" id="size4">
+                            <input class="size__radio" type="radio" name="size" id="size5">
+                            <span class="size__border"></span>
+                        </div>
+                        <div class="input input__color">
+                            <label class="input__label" for="color">Colour:</label>
+                            <input class="input__input" type="radio" name="color" id="color">
+                            <input class="input__input" type="radio" name="color" id="color2">
+                            <input class="input__input" type="radio" name="color" id="color3">
+                        </div>
+                        <div class="wrapper__button">
+                            <button class="button button__buy">Buy now</button>
+                            <button class="button button__add">
+                                <p class="button__label">Add to cart</p>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </body>
+
 </html>
